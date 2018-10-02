@@ -3,17 +3,17 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Pygame Zero
-======================
+Selamat Datang di Pygame Zero
+=============================
 
-Pygame Zero is for creating games without boilerplate.
+Pygame Zero adalah pustaka untuk membuat game tanpa kode *boilerplate*.
 
-It is intended for use in education, so that teachers can teach basic
-programming without needing to explain the Pygame API or write an event loop.
+Proyek ini dimaksudkan untuk digunakan dalam edukasi, sehingga guru dapat mengajar dasar
+pemrograman tanpa perlu menjelaskan API Pygame atau menulis *event loop*.
 
 
-Courses
--------
+Pelajaran
+---------
 
 .. toctree::
     :maxdepth: 2
@@ -25,7 +25,7 @@ Courses
 .. learn-programming
 .. flappy-bird
 
-Reference
+Referensi
 ---------
 
 .. toctree::
@@ -34,8 +34,8 @@ Reference
     hooks
     builtins
 
-User Guide
-----------
+Panduan Pengguna
+----------------
 
 .. toctree::
     :maxdepth: 2
@@ -47,16 +47,16 @@ User Guide
     changelog
 
 
-Stickers by |Sticker Mule|
---------------------------
+Sticker dari |Sticker Mule|
+---------------------------
 
 .. |Sticker Mule| image:: _static/sticker-mule.svg
     :alt: Sticker Mule
     :height: 40
     :target: https://www.stickermule.com/supports/opensource
 
-`Sticker Mule`_ have graciously offered to provide Pygame Zero laptop stickers
-for learners.
+`Sticker Mule`_ dengan murah hati menawarkan untuk menyediakan stiker laptop Pygame Zero
+untuk pelajar.
 
 .. _`Sticker Mule`: https://www.stickermule.com/supports/opensource
 
@@ -66,8 +66,8 @@ for learners.
     stickers
 
 
-Improving Pygame Zero
----------------------
+Mengembangkan Pygame Zero
+-------------------------
 
 .. toctree::
     :maxdepth: 2
