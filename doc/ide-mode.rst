@@ -1,32 +1,30 @@
-Running Pygame Zero in IDLE and other IDEs
+Menjalankan Pygame Zero di IDLE dan IDE lainnya
 ==========================================
 
 .. versionadded:: 1.2
 
-Pygame Zero is usually run using a command such as::
+Pygame Zero biasanya dijalankan dengan menggunakan perintah seperti::
 
     pgzrun my_program.py
 
-Certain programs, such as integrated development environments like IDLE and
-Edublocks, will only run ``python``, not ``pgzrun``.
+Program tertentu, misalkan lingkungan pengembangan terintegrasi *(integrated development environments)* seperti IDLE dan
+Edublocks, hanya akan menjalankan ``python``, bukan ``pgzrun``.
 
-Pygame Zero includes a way of writing a full Python program that can be run
-using ``python``. To do it, put ::
+Pygame Zero menyertakan sebuah jalan untuk menuliskan program Python yang dapat dijalankan menggunakan ``python``. Untuk melakukannya, taruh ::
 
     import pgzrun
 
-as the very first line of the Pygame Zero program, and put ::
+sebagai baris paling awal dari program Pygame Zero dan taruh ::
 
     pgzrun.go()
 
-as the very last line.
+sebagai baris paling akhir.
 
 
 Example
 -------
 
-Here is a Pygame Zero program that draws a circle. You can run this by pasting
-it into IDLE::
+Ini merupakan program Pygame Zero yang menggambar sebuah lingkaran. Anda dapat menjalankan program ini dengan menyalin kode ini ke IDLE::
 
 
     import pgzrun
