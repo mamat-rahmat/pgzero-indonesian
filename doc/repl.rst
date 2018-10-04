@@ -1,41 +1,41 @@
-Using the REPL (Read-Evaluate-Print Loop)
+Menggunakan REPL (Read-Evaluate-Print Loop)
 =========================================
 
-The REPL allows you to interact with a running Pygame Zero game using Python
-commands. As you type it will offer suggestions based on variables that exist
-in your program. This can be useful for debugging your game or tuning how difficult it is.
+REPL mengizinkan anda untuk berinteraksi dengan game Pygame Zero yang sedang berjalan menggunakan perintah 
+Python. Ketika anda menuliskannya, sistem akan menawarkan sugesti berdasarkan variabel yang ada
+pada program anda. Ini bisa berguna untuk melakukan debuggin pada game anda atau menyetel bagaimana tingkat kesulitannya.
 
 .. image:: _static/repl.png
 
-REPL is short for a Read-Evaluate-Print Loop; it means:
+REPL adalah kependekan dari Read-Evaluate-Print Loop; yang berarti:
 
-1. **Read** a line of code typed by you
-2. **Evaluate** the code
-3. **Print** the result
-4. **Loop** back to step 1!
+1. **Read** membaca baris kode yang anda tuliskan
+2. **Evaluate** evaluasi kode
+3. **Print** menampilkan hasil
+4. **Loop** mengulang kembali ke tahap 1!
 
-This is an *optional feature* that may need to :ref:`be installed
-<install-repl>` if it was not originally installed with Pygame Zero. If you try
-using the REPL, Pygame Zero will let you know if it is not installed.
+Ini adalah *fitur pilihan* yang mungkin perlu :ref: `di install
+<install-repl>` jika awalnya tidak terinstall dengan Pygame Zero. jika anda mencoba
+menggunakan REPL, Pygame Zero akan memberitahu anda jika itu sudah terinstall atau belum.
 
 
-Running a Pygame Zero program with the REPL
+Menjalankan program Pygame Zero dengan REPL
 -------------------------------------------
 
-If you normally run your Pygame Zero program using the terminal, add ``--repl``
-to the command line when running ``pgzrun``. For example, if your game is in
-a file called ``mygame.py``, run::
+Jika normalnya anda menjalankan program Pygame Zero anda menggunakan terminal, tambahkan ``--repl``
+pada command line ketika menjalankan ``pgzrun``. Contohnya, jika game anda ada pada
+sebuah file bernama ``mygame.py``, jalankan::
 
     pgzrun --repl mygame.py
 
 
-Using the REPL
---------------
+Menggunakan REPL
+----------------
 
-Python code that you type at the REPL is evaluated as if you had typed it into
-your game file.
+Kode Python yang sudah anda tulis pada REPL dievaluasi seolah-olah anda menuliskannya
+pada file game anda.
 
-For example, if your game file contains the code ::
+Contohnya, jika game anda menggandung kode ::
 
     alien = Actor('alien', pos=(54, 60))
 
@@ -44,11 +44,11 @@ For example, if your game file contains the code ::
         alien.draw()
 
 
-Then at the REPL you could type ``alien`` to see the alien object::
+Maka pada REPL anda bisa menuliskan ``alien`` untuk melihat objek alien::
 
     >>> alien
     <Actor 'alien' pos=(54, 60)>
 
-You can set attributes on the ``alien`` object and see it move::
+Anda bisa menentukan atribut pada objek ``alien`` dan melihatnya bergerak::
 
     >>> alien.x = 90
