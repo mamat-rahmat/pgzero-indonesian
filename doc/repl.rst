@@ -3,7 +3,7 @@ Menggunakan REPL (Read-Evaluate-Print Loop)
 
 REPL mengizinkan anda untuk berinteraksi dengan game Pygame Zero yang sedang berjalan menggunakan perintah 
 Python. Ketika anda menuliskannya, sistem akan menawarkan sugesti berdasarkan variabel yang ada
-pada program anda. Ini bisa berguna untuk melakukan debuggin pada game anda atau menyetel bagaimana tingkat kesulitannya.
+pada program anda. Ini bisa berguna untuk melakukan debugging pada game anda atau menyetel bagaimana tingkat kesulitannya.
 
 .. image:: _static/repl.png
 
